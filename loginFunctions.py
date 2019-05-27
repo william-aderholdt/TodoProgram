@@ -4,7 +4,7 @@ import sqlite3
 
 
 """
-This function creates a new todo item for the user. 
+This function creates a new user entry in the database.
 """
 def createUser():
 
@@ -18,7 +18,7 @@ def createUser():
     return
 
 """
-This function creates a new todo item for the user. 
+This function allows an existing user to login. 
 """
 def loginUser():
 
